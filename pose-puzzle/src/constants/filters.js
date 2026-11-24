@@ -1,0 +1,51 @@
+// Definisi 6 Filter Kamera Real-Time - SNAP BOOTH Editorial Palette
+export const CAMERA_FILTERS = [
+  {
+    id: 'normal',
+    name: 'Normal',
+    tagline: 'Warna natural tajam',
+    cssFilter: 'none',
+    canvasFilter: 'none',
+    colorHex: '#0C3859',
+  },
+  {
+    id: 'retro',
+    name: 'Retro 90s Film',
+    tagline: 'Sepia lembut vintage film',
+    cssFilter: 'sepia(0.38) contrast(1.15) brightness(0.92) saturate(1.25) hue-rotate(-10deg)',
+    canvasFilter: 'sepia(0.38) contrast(1.15) brightness(0.92) saturate(1.25) hue-rotate(-10deg)',
+    colorHex: '#8C5E3C',
+  },
+  {
+    id: 'softcream',
+    name: 'Soft Cream Dreamy',
+    tagline: 'Saturasi pastel & kecerahan lembut',
+    cssFilter: 'brightness(1.16) contrast(0.92) saturate(1.35) sepia(0.12)',
+    canvasFilter: 'brightness(1.16) contrast(0.92) saturate(1.35) sepia(0.12)',
+    colorHex: '#F2E9DB',
+  },
+  {
+    id: 'monochrome',
+    name: 'Classic Monochrome',
+    tagline: 'Hitam putih dramatis kontras tinggi',
+    cssFilter: 'grayscale(1) contrast(1.55) brightness(0.9)',
+    canvasFilter: 'grayscale(1) contrast(1.55) brightness(0.9)',
+    colorHex: '#1E293B',
+  },
+  {
+    id: 'golden',
+    name: 'Warm Golden',
+    tagline: 'Cahaya keemasan hangat',
+    cssFilter: 'sepia(0.32) saturate(1.5) brightness(1.1) hue-rotate(-15deg) contrast(1.06)',
+    canvasFilter: 'sepia(0.32) saturate(1.5) brightness(1.1) hue-rotate(-15deg) contrast(1.06)',
+    colorHex: '#D97706',
+  },
+  {
+    id: 'cyanotype',
+    name: 'Cool Cyanotype',
+    tagline: 'Nuansa biru indigo dingin',
+    cssFilter: 'contrast(1.25) saturate(1.4) hue-rotate(170deg) brightness(1.05)',
+    canvasFilter: 'contrast(1.25) saturate(1.4) hue-rotate(170deg) brightness(1.05)',
+    colorHex: '#C3E0F4',
+  },
+];
